@@ -29,6 +29,7 @@ Understanding [the way we label issues](http://yeoman.io/contributing/ticketing.
 - [yeoman-generator](https://github.com/yeoman/generator-generator) which is the system used by any generator
 - [yo](https://github.com/yeoman/yo) which is the command line interface.
 - [yeoman-environment](https://github.com/yeoman/environment) which is responsible of handling the lifecyle and bootstrap of generators in a specific environment (your app).
+- [yeoman-doctor](https://github.com/yeoman/doctor) which is a script to help users debug their system configuration to run yeoman.
  
 You can also check the [Yeoman github organization](https://github.com/yeoman) to see the list of official generators and plugins we maintains. Don't forget you're obviously free to work on other projects that are not related to the yeoman organization.
 
