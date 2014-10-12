@@ -24,7 +24,13 @@ What can I do?
 
 First of all, you should probably go through our [contribution guidelines](http://yeoman.io/contributing/).
 
-Understanding [the way we label issues](http://yeoman.io/contributing/ticketing.html) will help you find bugs you can fix or features you can create. The core Yeoman system consist of [yeoman-generator](https://github.com/yeoman/generator-generator) which is the system used by any generator, and of [yo](https://github.com/yeoman/yo) which is the command line interface. You can also check the [Yeoman github organization](https://github.com/yeoman) to see the list of official generators and plugins we maintains (not that you have to work on "official" stuff).
+Understanding [the way we label issues](http://yeoman.io/contributing/ticketing.html) will help you find bugs you can fix or features you can create. The core Yeoman system consist of:
+
+- [yeoman-generator](https://github.com/yeoman/generator-generator) which is the system used by any generator
+- [yo](https://github.com/yeoman/yo) which is the command line interface.
+- [yeoman-environment](https://github.com/yeoman/environment) which is responsible of handling the lifecyle and bootstrap of generators in a specific environment (your app).
+ 
+You can also check the [Yeoman github organization](https://github.com/yeoman) to see the list of official generators and plugins we maintains. Don't forget you're obviously free to work on other projects that are not related to the yeoman organization.
 
 This repository contains a [list of more demanding project](https://github.com/yeoman/Hackathons/labels/project) any team can start working on during a hackathon.
 
